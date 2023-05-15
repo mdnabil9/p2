@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Items for reference</h1>
+    <a href="#forms">Froms</a>
+    <h2>HTML Tables</h2>
+    <table border="1" width="50%">
+        <tr>
+            <th>Head 1</th>
+            <td>Data 1</td>
+        </tr>
+        <tr>
+            <th>Head 2</th>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <th>Head 3</th>
+            <td>Data 3</td>
+        </tr>
+    </table>
+    <table border="1" width="60%">
+        <tr>
+            <th>Time</th>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>9:00</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+    <!-- HTML List -->
+    <!-- Unorderd List  -->
+    <!-- List type Circle -->
+    <h2 id="html_list">HTML LIST</h2>
+    <a href="./#reload_pg">Reload forms</a>
+
+    <h3>Unordered List</h3>
+    <p>List Type = Circle</p>
+    <ul type="circle">
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item1</li>
+    </ul>
+    <!-- List type Square -->
+    <p>List Type = Square</p>
+    <ul type="square">
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item1</li>
+    </ul>
+    <!-- List type Disc -->
+    <p>List Type = Disc</p>
+    <ul type="disc">
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item1</li>
+    </ul>
+    <!-- Orderd List  -->
+    <!-- list type 1,2,3 -->
+    <h3>Ordered List</h3>
+    <p>List Type = 1</p>
+    <ol type="1">
+        <li>Numbered Item1</li>
+        <li>Numbered Item2</li>
+        <li>Numbered Item3</li>
+        <li>Numbered Item4</li>
+    </ol>
+    <p>List Type = A</p>
+    <ol type="A">
+        <li>Numbered Item1</li>
+        <li>Numbered Item2</li>
+        <li>Numbered Item3</li>
+        <li>Numbered Item4</li>
+    </ol>
+    <p>List Type = a</p>
+    <ol type="a">
+        <li>Numbered Item1</li>
+        <li>Numbered Item2</li>
+        <li>Numbered Item3</li>
+        <li>Numbered Item4</li>
+    </ol>
+    <!-- list type A,B,C -->
+    <p>List Type = i</p>
+    <ol type="i">
+        <li>Numbered Item1</li>
+        <li>Numbered Item2</li>
+        <li>Numbered Item3</li>
+        <li>Numbered Item4</li>
+    </ol>
+    <h2 id="forms">HTML Forms</h2>
+    <form action="#">
+        <label for="in1">text Input</label>
+        <input type="text" name="in1" translate="yes" placeholder="Text Input">
+        <label for="in2">password</label>
+        <input type="password" name="in2" placeholder="Password Input">
+        <input type="submit" value="hello" name="in3">
+        <input type="file" value="hello" name="in4">
+        <label for="s1">This is label for select </label>
+        <select name="a" id="s1" size="3">
+            <option value="op1">OPTION1</option>
+            <option value="op2">OPTION2</option>
+            <option value="op3">OPTION3</option>
+            <option value="op4">OPTION4</option>
+            <option value="op3">OPTION5</option>
+            <option value="set value" selected>OPTION6</option>
+            <option value="op3">OPTION7</option>
+        </select>
+        <br><br>
+        <br><br>
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        <fieldset>
+            <legend>Input Legend</legend>
+            <label for="input">This is input</label>
+            <input type="text" placeholder="Enter Username" name="uname" autofocus class="full_input">
+            <label for="input">This is input</label>
+            <input type="password" placeholder="Password" class="full_input" name="upass">
+        </fieldset>
+        <textarea name="message" rows="10" cols="40">The cat .</textarea>
+        <br><br>
+    </form>
+    <h2>Input Types</h2>
+        <label for="button">button</label>
+            <input type="button" value="button"><br>
+        <label for="checkbox">checkbox</label>
+            <input type="checkbox" value="checkbox"><br>
+        <label for="color">color</label>
+            <input type="color" value="color"><br>
+        <label for="date">date</label>
+            <input type="date" value="date"><br>
+        <label for="local">local</label>
+            <input type="datetime-local" value="local"><br>
+        <label for="email">email</label>
+            <input type="email" value="email"><br>
+        <label for="file">file</label>
+            <input type="file" value="file"><br>
+        <label for="hidden">hidden</label>
+            <input type="hidden" value="hidden"><br>
+        <label for="image">image</label>
+            <input type="image" id="btn_img" src="btn1.jpg"><br>
+        <label for="month">month</label>
+            <input type="month" value="month"><br>
+        <label for="number">number</label>
+            <input type="number" value="number"><br>
+        <label for="password">password</label>
+            <input type="password" value="password"><br>
+        <label for="radio">radio</label>
+            <input type="radio" value="radio"><br>
+        <label for="range">range</label>
+            <input type="range" value="range"><br>
+        <label for="reset">reset</label>
+            <input type="reset" value="reset"><br>
+        <label for="search">search</label>
+            <input type="search" value="search"><br>
+        <label for="submit">submit</label>
+            <input type="submit" value="submit"><br>
+        <label for="tel">tel</label>
+            <input type="tel" value="tel"><br>
+        <label for="text">text</label>
+            <input type="text" value="text"><br>
+        <label for="time">time</label>
+            <input type="time" value="time"><br>
+        <label for="url">url</label>
+            <input type="url" value="url"><br>
+        <label for="week">week</label>
+            <input type="week" value="week"><br>
+    <a href="./" id="reload_pg">PAGE!!</a>
+    <a href="./#reload_pg" id="reload_pg">Reload forms</a>
+    <a href="./#html_list" id="reload_pg">Reload lIST</a>
+</body>
+</html>
